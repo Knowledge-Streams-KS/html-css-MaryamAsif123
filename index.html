@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Personal Portfolio</title>
   </head>
   <body>
     <div class="nav-bar flex">
-      <a href="#about">Contact</a>
+      <a href="#contact">Contact</a>
       <a href="#work">Work</a>
-      <a href="#contact">About</a>
+      <a href="#about">About</a>
     </div>
-    <div class="body1">
-      <p id="heading">Hey I am Mimic</p>
+    <div class="body1" id="about">
+      <h1 id="heading">Hey I am Mimic</h1>
       <p id="subheading">a web developer</p>
     </div>
-    <div class="body2">
+    <div class="body2" id="work">
       <p id="pro">These are some of my Projects</p>
       <div class="grid-container">
         <div class="grid-item item1">
@@ -75,9 +76,21 @@
       </div>
       <button class="btn">Add Project + </button>
     </div>
-    <div class="body1">
-        <p class="body3">Lets Work Together...</p>
+    <div class="body1" id="contact">
+        <p class="body3">Lets work Together...</p>
         <p class="sub">How do you take your Coffee?</p>
+        <div class="socialMedia">
+          <p class="socialSource"><i class="fa fa-facebook-square icon"></i>Facebook</p>
+          <p class="socialSource"><i class="fa fa-github icon"></i>GitHub</p>
+          <p class="socialSource"><i class="fa fa-twitter icon"></i>Twitter</p>
+          <p class="socialSource"><i class="fa fa-at icon"></i>Send a mail</p>
+          <p class="socialSource"><i class="fa fa-mobile icon"></i>Call me</p>
+        </div>
+        
+    </div>
+    <div class="footer">
+      <p class="footer-text">**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+      <p class="footer-text">© Created for freeCodeCamp <i class="fa fa-free-code-camp iconFoot"></i></p>
     </div>
 
   </body>
