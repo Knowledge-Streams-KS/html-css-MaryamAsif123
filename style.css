@@ -82,8 +82,9 @@ a:hover {
   }
 .pt{
     display: flex;
-    margin:6px;
-    font-size: 20px
+    margin:20px;
+    font-size: 20px;
+    text-align: center;
 }
 .flex2{
     display: flex;
@@ -95,9 +96,9 @@ a:hover {
 .pt:hover .hover{
     display: block;
 }
-.grid-container:hover .hover{
+/* .grid-container:hover .hover{
     display: block;
-}
+} */
 .btn{
     padding: 18px;
     font-size: 15px;
