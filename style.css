@@ -5,6 +5,9 @@ body{
 * {
   margin: 0px;
 }
+html{
+  scroll-behavior: smooth;
+}
 .flex {
   display: flex;
   flex-direction: row-reverse;
@@ -44,7 +47,7 @@ a:hover {
 .body2{
     padding-top: 40px;
     text-align: center;
-    background-color:#45567d;;
+    background-color:#45567d;
     color: white;
     height: 100%;
     width: 100%;    
@@ -77,14 +80,17 @@ a:hover {
     padding: 0px;
   }  */
   #pro{
-    text-decoration: underline;
+    border-bottom: 2px solid white;
     font-size: 40px;
+    color: white;
+    margin-top: 30px;
   }
 .pt{
     display: flex;
     margin:20px;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
+    justify-content: center;
 }
 .flex2{
     display: flex;
@@ -92,9 +98,13 @@ a:hover {
 }
 .hover{
     display: none;
+    font-size: 30px;
+    font-weight: bold;
 }
 .pt:hover .hover{
     display: block;
+    color: #be3144;
+    
 }
 /* .grid-container:hover .hover{
     display: block;
@@ -161,4 +171,22 @@ a:hover {
 .iconFoot{
   font-family: "Font Awesome 5 Brands";
   font-size: 17px;
+}
+.projectsHeading{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #45567d;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.pt:hover .code{
+  color: #BE3144;
+  margin: 0px 7px;
+  font-weight: bold;
+}
+.code {
+  color: rgb(49, 46, 46);
+  transition: color 0.3s ease-out;
 }
