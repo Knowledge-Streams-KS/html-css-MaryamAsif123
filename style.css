@@ -8,6 +8,9 @@ body{
 html{
   scroll-behavior: smooth;
 }
+/* @media (max-width: 75em) {
+ 
+} */
 .flex {
   display: flex;
   flex-direction: row-reverse;
@@ -19,7 +22,7 @@ html{
   width: 100%;
   position: fixed;
 }
-a {
+#a {
   display: block;
   color: white;
   padding: 20px;
@@ -30,7 +33,7 @@ a {
   text-align: center;
   font-size: 25px;
 }
-a:hover {
+#a:hover {
   background-color: #45567d;
 }
 
@@ -112,7 +115,8 @@ a:hover {
 .btn{
     padding: 18px;
     font-size: 15px;
-    margin-bottom: 50px;
+    margin-top: 60px;
+    margin-bottom: 70px;
     border-radius: 5px;
     color: white;
     background-color: rgb(49, 46, 46);
@@ -120,6 +124,7 @@ a:hover {
 }
 .btn:hover{
     background-color: #be3144;
+    border: 1px solid #be3144;
 }
 .body3{
     color: rgb(251, 248, 248);
@@ -189,4 +194,8 @@ a:hover {
 .code {
   color: rgb(49, 46, 46);
   transition: color 0.3s ease-out;
+}
+#links{
+  text-decoration: none;
+  color: white;
 }
